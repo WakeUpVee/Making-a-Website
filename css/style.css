@@ -66,20 +66,31 @@ img {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-.movie-goodwillhunting {
-    color: rgb(235, 196, 97);
+
+
+.music-box{
+    margin-left: 390px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+    border-color: rgb(245, 159, 245);
+    border-width: 5px;
+    border-style: groove;
+    background-color: rgb(193, 96, 156);
+
+    width: 550px;
 }
 
-.movie-whiplash {
-    color: darkred;
+.favoriteMusicHeader{
+    padding-left: 50px; 
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
-.movie-lookback {
-    color: lightblue;
+.aboutMe{
+    margin-top: 20px;
+    margin-left: 625px;
 }
-
-.movie-chainsawman {
-    color: rgb(225, 50, 50);
-}
-
-
