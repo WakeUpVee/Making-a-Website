@@ -1,14 +1,22 @@
 <!DOCTYPE html> <! Tells the browser to follow HTML5's rule and that it's a HMTL file !>
 <html lang="en"> <! Specifies the langauge for assessibility !>
+
+
 <head>
     <meta charset="UTF-8"> <! Encodes special symbols so it won't look broken !>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <! ^ Helps with mobile rescaling !>
+
     <title> Five's Webpage </title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <! rel is relationship
+
 </head>
+
+
 <body>
-
-
     <h1> Welcome to my webpage! </h1>
     <! h1 to h6 indicates the size of the title !>
 
@@ -23,27 +31,31 @@
     <p> Five's <a href="https://www.albumoftheyear.org/user/wakeupvee/" target="_blank" rel="nonreferrer"> Album of the Year Profile</a> </p>
         <! target="_blank", and rel="nonreferrer" here makes it so that it goes to a different tab.
 
-    <p> Five's <a href="https://letterboxd.com/WakeUpVeee/" target="_blank" rel="nonreferrer"> Letterboxd Profile  </a> </p>
-
-    <p> Five's favorite movies (Unordered)</p>
+        <p> Five's <a href="https://letterboxd.com/WakeUpVeee/" target="_blank" rel="nonreferrer"> Letterboxd Profile  </a> </p>
+   
+   
+    <div class="movie-box">
+    <p class="favoriteMovieHeader"> Five's favorite movies (Unordered)</p>
     <ul>
-        <li>Good Will Hunting</li>
-        <li>Whiplash</li>
-        <li>Look Back</li>
-        <li>Chainsaw Man: Reze Arc</li>
+        <li> <span class="movie-goodwillhunting"> Good Will Hunting</span> </li>
+        <li> <span class="movie-whiplash"> Whiplash</span> </li>
+        <li> <span class="movie-lookback"> Look Back</span> </li>
+        <li> <span class="movie-chainsawman"> Chainsaw Man: Reze Arc</span> </li>
     </ul>
+    </div>
 
-    <p> Five's favorite albums (Ordered)</p>
+    <div>
+    <p > Five's favorite albums (Ordered)</p>
     <ol>
-        <li>I Didn't Mean to Haunt You by <strong>Quadeca</strong></li>
+        <li> I Didn't Mean to Haunt You by <strong>Quadeca</strong></li>
         <li>Ants From Up There by <strong>Black Country, New Road </strong> </li>
         <li>In the Aeroplane Over The Sea by <strong>Neutral Milk Hotel</strong> </li>
         <li>Nurture by <strong> Porter Robinson </strong></li>
         <li>Revengeseekerz by <strong> Jane Remover </strong></li>
     </ol>
-
+    </div>
     <p> <a href="Page2.html"> <strong> About Me</strong> </a> </p>
-        
+
 
 </body>
 </html>
