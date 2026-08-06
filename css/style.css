@@ -1,0 +1,37 @@
+body {
+    padding: 40px;
+    background-color: black; 
+    color: white; 
+    font-size: 21px; 
+    font-family: sans-serif; 
+    margin: 0 auto;
+}
+h1 {
+    color: lightblue;
+}
+
+.movie-box {
+    background-color: darkslategrey;
+    width: 550px;
+}
+
+.favoriteMovieHeader {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.movie-goodwillhunting {
+    color: darkgoldenrod;
+}
+
+.movie-whiplash {
+    color: darkred;
+}
+
+.movie-lookback {
+    color: lightblue;
+}
+
+.movie-chainsawman {
+    color: red;
+}
