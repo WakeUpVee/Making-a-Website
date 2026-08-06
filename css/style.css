@@ -15,6 +15,15 @@ h1 {
     width: 550px;
 }
 
+.fivesDetails {
+    background-color: darkslategrey;
+    width: 550px;
+
+.detailsHeader {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+}
 .favoriteMovieHeader {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
