@@ -1,36 +1,73 @@
 body {
     padding: 40px;
-    background-color: black; 
+    background-color: #9b6eb0; 
     color: white; 
     font-size: 21px; 
     font-family: sans-serif; 
     margin: 0 auto;
 }
-h1 {
-    color: lightblue;
+.webpageHeader {
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+img {
+    margin-left: 300px;
+    border-width: 5px;
+    border-color: pink;
+    border-style: groove;
+}
+
+.webpageDescription {
+    margin-left: 100px;
+}
+
+.fivesDetailsBox {
+    margin-left: 390px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+    border-color: rgb(245, 159, 245);
+    border-width: 5px;
+    border-style: groove;
+    background-color: rgb(193, 96, 156);
+
+    width: 550px;
+}
+
+.fivesDetailsHeader {
+    padding-left: 180px;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .movie-box {
-    background-color: darkslategrey;
+    margin-left: 390px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+
+    border-color: rgb(245, 159, 245);
+    border-style: groove;
+    border-width: 5px;
+    background-color: rgb(193, 96, 156);
+
     width: 550px;
 }
 
-.fivesDetails {
-    background-color: darkslategrey;
-    width: 550px;
-
-.detailsHeader {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-}
-}
 .favoriteMovieHeader {
+    padding-left: 50px;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-
 .movie-goodwillhunting {
-    color: darkgoldenrod;
+    color: rgb(235, 196, 97);
 }
 
 .movie-whiplash {
@@ -42,5 +79,7 @@ h1 {
 }
 
 .movie-chainsawman {
-    color: red;
+    color: rgb(225, 50, 50);
 }
+
+
