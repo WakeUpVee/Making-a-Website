@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(42, 40, 40);
+
+}
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
