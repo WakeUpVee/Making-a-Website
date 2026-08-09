@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phengang's Big Break</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jsstyle.css">
 
 </head>
 <body>
+    <div class="topPart">
     <h2> Welcome to Phengang's About Page</h2>
     <p> 
         Phengang is a huge goofus nerd. The end.
@@ -15,6 +16,69 @@
     <p> 
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" ref="nonreferrer"> Super Secret Link</a>
     </p>
+    </div>
+
+
+<!--
+        <table>
+        <thead class="tableTextColor">
+            <tr>
+                <th>favMovies</th> 
+                <th>favMusic</th>  
+            </tr>
+        </thead>
+        <tbody class = "tableTextColor">
+            <tr>
+                <td> Good Will Hunting</td>
+                <td> I Didn't Mean to Haunt You</td>
+            </tr>
+            <tr>
+                <td> I Wanna Rule Your World</td>
+                <td> Ants From Up There</td>
+            </tr>
+        </tbody>
+    -->
+        <form>
+            <div>
+            <input type="text" placeholder="First Name" name="firstName">
+            <input type="text" placeholder="Last Name" name="lastName">
+            <!-- <input type="password" for password fields-->
+            </div>
+
+            <div>
+                Gender
+            <input type="radio" value="male" name="gender"> Male
+            <input type="radio" value="female" name="gender"> Female 
+            <input type="radio" value="preferNotToSay" name="gender"> Prefer Not to Say
+            </div>
+
+            <div>
+                Select Country: 
+            <input list="countries" placeholder="Country" name="country">
+            <datalist id="countries">
+                <option value="Cambodia">
+                <option value="Vietnam">
+                <option value="Laos">
+                <option value="Malaysia">
+                <option value="Indonesia">
+                <option value="Philipines">
+                <option value="Singapore">
+            </datalist>
+            
+
+            </div>
+
+            <input type="submit">
+
+
+
+        </form>
+
+
+
+
+
+
 
     <p>
         <a href="Page1.html"> <strong>Back</strong></a>
