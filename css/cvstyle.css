@@ -1,0 +1,27 @@
+img { 
+  margin: 10px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 4px;
+  text-align: center;
+}
+
+.aboutSectionDiv {
+    padding: 30px;
+    width:600px;
+    background-color: rgb(56, 56, 56);
+    color :white
+}
+
+.aboutMeText {
+    width: 500px;
+    font-size: 25px;
+
+}
+
+.leftSideSection { 
+    font-size: 25px;
+}
